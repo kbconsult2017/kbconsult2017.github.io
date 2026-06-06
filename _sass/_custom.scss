@@ -24,3 +24,19 @@ footer a {
     color: $grey-color;
     &:hover { color: #ffffff; }
 }
+
+/* Abstract toggles on the Publications page:
+   sit snugly under their own paper, with clear space before the next entry. */
+details {
+    margin-top: -0.35rem;   /* pull the toggle up toward the paper above it */
+    margin-bottom: 1.9rem;  /* clear gap before the next paper */
+    margin-left: 1.1rem;    /* slight indent so it visually belongs to its paper */
+}
+details > summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: $grey-color;
+    margin-bottom: 0.4rem;
+}
+details > summary:hover { color: $text-color; }
+details p:last-child { margin-bottom: 0; }
