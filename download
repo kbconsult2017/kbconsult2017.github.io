@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="container py-4">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="text-left">
+            <img src="{{ '/assets/img/personal-photo.jpg' | relative_url }}" alt="{{ site.author }}" class="rounded text-center w-75">
+            <h4 class="mt-4">{{ site.author }}</h4>
+            <p class="text-muted mt-2 mb-4">{{ site.bio }}</p>
+            <p class="text-muted text-small my-2"><span class="fas fa-envelope-square"></span> <a href="{{ site.email | prepend: 'mailto:' }}">Email</a></p>
+            {% if site.scholar %}<p class="text-muted text-small my-2"><span class="fas fa-graduation-cap"></span> <a href="{{ site.scholar }}" target="_blank" rel="noopener">Google Scholar</a></p>{% endif %}
+            {% if site.orcid %}<p class="text-muted text-small my-2"><span class="fab fa-orcid"></span> <a href="{{ site.orcid }}" target="_blank" rel="noopener">ORCiD</a></p>{% endif %}
+            {% if site.github %}<p class="text-muted text-small my-2"><span class="fab fa-github"></span> <a href="{{ site.github }}" target="_blank" rel="noopener">GitHub</a></p>{% endif %}
+            {% if site.linkedin %}<p class="text-muted text-small my-2"><span class="fab fa-linkedin"></span> <a href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a></p>{% endif %}
+            {% if site.school %}<p class="text-muted text-small my-2"><span class="fas fa-school"></span> <a href="{{ site.school }}" target="_blank" rel="noopener">Department</a></p>{% endif %}
+            </div>
+        </div>
+        <div class="col-md-9">
+            {{ content }}
+        </div>
+    </div>
+</div>
