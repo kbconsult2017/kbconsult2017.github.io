@@ -46,6 +46,6 @@ layout: page
 
 ### Technical Skills
 
-- **Statistical & data:** R, Python, SAS, NIMBLE, STATA, SQL, SPSS, STATGRAPHICS, NVivo.
+- **Software Skills:** R, Python, SAS, NIMBLE, STATA, SQL, SPSS, STATGRAPHICS, NVivo.
 - **Programming:** Java, C/C++, Visual Basic .NET.
 - **Tools:** LaTeX, GitHub, Microsoft Excel.
