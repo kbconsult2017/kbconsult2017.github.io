@@ -11,12 +11,12 @@ layout: page
 ### University of Cincinnati
 **Graduate Teaching Assistant**, Department of Mathematical Sciences / Math and Science Support Center (MASS)
 - *Quantitative Reasoning and Introductory Statistics* (instructor of record, 3-credit). 2021--2023.
-- Calculus problem sessions; tutoring at the Math and Science Support Center (MASS Center).
+- Calculus problem sessions.
 
 
 ### East Tennessee State University
 **Graduate Teaching Assistant**, Department of Mathematics and Statistics / Center for Academic Achievement (CFAA)
-- Introductory Statistics and Linear Algebra; Pre-calculus, Probability and Statistics. 2020--2021.
+- Introductory Statistics, Linear Algebra, Pre-calculus, Probability and Statistics. 2020--2021.
 
 
 ### University of Ghana
