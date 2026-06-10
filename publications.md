@@ -44,6 +44,8 @@ This is the first study demonstrating an increased risk of COPD mortality with d
 
 </details>
 
+A Cluster-Based Framework for Joint Mixture Effects: Extending SVD-PICAR Bayesian Kernel Machine Regression to Spatio-Temporal Count Outcomes ( in preparation )
+
 ### Published
 
 **Afari, K.B.** and Lewis, C.N.H. (2022) Performance Comparison of Imputation Methods for Mixed Data Missing at Random with Small and Large Sample Dataset with Different Variability. *Asian Journal of Probability and Statistics*, **20**(2), 16--39. [`https://journalajpas.com/index.php/AJPAS/article/view/416`](https://journalajpas.com/index.php/AJPAS/article/view/416){:target="_blank" rel="noopener"}
