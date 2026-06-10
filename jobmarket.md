@@ -18,7 +18,7 @@ I am on the academic and research-institution job market, expecting to defend my
 ### References
 
 **Dr. Yeongjin Gwon** &mdash; PhD Advisor; 
-Associate Professor, Department of Biostatistics, UNMC; Director of Biostatistics, Water, Climate and Health Program, College of Public Health; Faculty Fellow, Daugherty Water for Food Global Institute, University of Nebraska.
+Associate Professor, Department of Biostatistics, UNMC; Director of Biostatistics, Water, Climate and Health Program, College of Public Health; Faculty Fellow, Daugherty Water for Food Global Institute, University of Nebraska.\\
 [yeongjin.gwon@unmc.edu](mailto:yeongjin.gwon@unmc.edu)
 
 **Dr. Jesse Bell** &mdash; PhD Supervisory Committee Member; 
