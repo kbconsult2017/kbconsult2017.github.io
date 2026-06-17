@@ -5,7 +5,7 @@ layout: page
 
 # About Me
 
-Hello! I am a Ph.D. candidate in Biostatistics at the [University of Nebraska Medical Center](https://www.unmc.edu/), advised by Dr. Yeongjin Gwon. I expect to defend in 2026 and am on the academic and research-institution job market.
+Hello! I am a Ph.D. candidate in Biostatistics at the [University of Nebraska Medical Center](https://www.unmc.edu/). I expect to defend in 2026 and am on the academic and research-institution job market.
 
 My research develops scalable Bayesian methods for spatio-temporal data, motivated by problems in environmental health. My dissertation introduces the *SVD-PICAR* framework — a family of compressed basis-function methods that make hierarchical Bayesian spatio-temporal models computationally practical at large scale. I extend the framework to Gaussian, multinomial, and count outcomes, and to Bayesian Kernel Machine Regression for estimating the health effects of complex environmental mixtures.
 
