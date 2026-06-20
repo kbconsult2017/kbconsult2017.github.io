@@ -15,7 +15,7 @@ scholar: https://scholar.google.com/citations?hl=en&user=7HvrqlkAAAAJ
 linkedin: https://www.linkedin.com/in/kyei-afari-0a283084/
 # Fill these in when ready — leave blank to hide the link automatically:
 orcid:
-github:
+github:https://github.com/kbconsult2017
 
 # framework toggles (leave as-is)
 bootstrap: true
