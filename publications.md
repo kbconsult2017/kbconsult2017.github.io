@@ -45,10 +45,10 @@ COPD mortality was greater during drought conditions in the contiguous United St
 </details>
 
 
-**Afari, K.B.** et al (2026+) A Cluster-Based Framework for Joint Mixture Effects: Extending SVD-PICAR Bayesian Kernel Machine Regression to Spatio-Temporal Count Outcomes ( In preparation for Biometrics )
+**Afari, K.B.** et al (2026+) A Cluster-Based Framework for Joint Mixture Effects: Extending SVD-PICAR Bayesian Kernel Machine Regression to Spatio-Temporal Count Outcomes. *Manuscript in preparation for Biometrics*
 
 
-**Afari, K.B.** (2026+) stsvdpicar: Data-Driven Spatio-Temporal Basis-Size Selection via SVD-PICAR in R. Software paper in preparation for the Journal of Statistical Software. Repository: [GitHub URL once available]
+**Afari, K.B.** (2026+) stsvdpicar: Data-Driven Spatio-Temporal Basis-Size Selection via SVD-PICAR in R. *Software paper in preparation for the Journal of Statistical Software*. Repository: [GitHub URL once available]
 <details markdown="1"><summary>Abstract</summary>
 
 <p>
