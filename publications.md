@@ -56,6 +56,8 @@ basis, compresses it with a randomized singular value decomposition (SVD-PICAR),
 alongside a Gaussian-kernel exposure-mixture term and a single argument compares a fixed-effect, a full-rank ICAR, and the SVD-PICAR specification. A cluster-based variant compresses the mixture surface itself: the exposures are partitioned into a small number of recurring profiles and the kernel machine is evaluated at the profile centroids rather than at every observation, so that the analysis returns one interpretable joint mixture effect per profile instead of thousands of pointwise values, with the retained field rank selected by the stability of that effect rather than by an information criterion. We describe the architecture and application programming interface, validate the method on Gaussian and multinomial simulations against the uncompressed PICAR baseline (including latent-field over-smoothing diagnostics) and on a negative-binomial mixture
 simulation, and apply it to three large datasets: NASA GRACE-FO terrestrial-water-storage / PM$_{2.5}$ records, county-month lung-cancer mortality categories, and Nebraska county-year thyroid-cancer counts with pesticide exposures. 
 
+</details>
+
 ### Published
 
 **Afari, K.B.** and Lewis, C.N.H. (2022) Performance Comparison of Imputation Methods for Mixed Data Missing at Random with Small and Large Sample Dataset with Different Variability. *Asian Journal of Probability and Statistics*, **20**(2), 16--39. [`https://journalajpas.com/index.php/AJPAS/article/view/416`](https://journalajpas.com/index.php/AJPAS/article/view/416){:target="_blank" rel="noopener"}
