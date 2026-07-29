@@ -52,7 +52,7 @@ COPD mortality was greater during drought conditions in the contiguous United St
 <details markdown="1"><summary>Abstract</summary>
 
 <p>
-    Projection-based intrinsic conditional autoregression (PICAR) makes hierarchical
+  Projection-based intrinsic conditional autoregression (PICAR) makes hierarchical
     spatial models tractable by representing the latent field in a low-rank basis and
     selecting a working rank within a user-fixed maximum basis size. Extending the
     construction to space-time through a tensor product of a spatial Moran basis and a
@@ -61,8 +61,8 @@ COPD mortality was greater during drought conditions in the contiguous United St
     choose the maximum basis size itself. The R package stsvdpicar closes this gap. It
     builds an intentionally dense spatio-temporal tensor-product basis, compresses it
     with a randomized singular value decomposition (SVD-PICAR), and identifies an
-    optimal constructed basis size <em>K</em> &mdash; the smallest size whose
-    best-working rank preserves out-of-sample predictive accuracy, as measured by mean
+    optimal constructed basis size <em>K</em> &mdash; the smallest size whose best
+    working rank preserves out-of-sample predictive accuracy, as measured by mean
     squared prediction error (MSPE), while runtime stabilizes and effective sample size
     per second (ESS/sec) peaks, a <em>computational sweet spot</em>. The package exposes
     the pipeline as three composable stages &mdash; design construction, a basis-size
@@ -73,22 +73,24 @@ COPD mortality was greater during drought conditions in the contiguous United St
     The package also provides observation-level negative-binomial Bayesian kernel machine
     regression (NB-BKMR) for overdispersed spatio-temporal count data, in which the
     SVD-PICAR field enters as the spatio-temporal random effect alongside a
-    Gaussian-kernel exposure-mixture term, and a single argument compares a fixed-effect,
+    Gaussian-kernel exposure-mixture term and a single argument compares a fixed-effect,
     a full-rank ICAR, and the SVD-PICAR specification. A cluster-based variant compresses
     the mixture surface itself: the exposures are partitioned into a small number of
-    recurring profiles and the kernel machine is evaluated at the profile centroids rather
-    than at every observation, so that the analysis returns one interpretable joint
-    mixture effect per profile instead of thousands of pointwise values, with the retained
-    field rank selected by the stability of that effect rather than by an information
-    criterion.
+    recurring profiles by model-based clustering and the kernel machine is evaluated at
+    the profile centroids rather than at every observation, so that the analysis returns
+    one interpretable joint mixture effect per profile instead of thousands of pointwise
+    values. The fitted mixture responsibilities are carried into the mixture term, so that
+    first-stage assignment uncertainty propagates, and the retained field rank is selected
+    by the stability of the estimated effect rather than by an information criterion.
   </p>
   <p>
     We describe the architecture and application programming interface, validate the
-    method on Gaussian and multinomial simulations against the uncompressed PICAR baseline
-    (including latent-field over-smoothing diagnostics) and on a negative-binomial mixture
-    simulation, and apply it to three large datasets: NASA GRACE-FO terrestrial-water-storage
-    / PM<sub>2.5</sub> records, county-month lung-cancer mortality categories, and Nebraska
-    county-year thyroid-cancer counts with pesticide exposures.
+    method on Gaussian and multinomial simulations against the uncompressed PICAR
+    baseline (including latent-field over-smoothing diagnostics) and on a
+    negative-binomial mixture simulation, and apply it to three large datasets: NASA
+    GRACE-FO terrestrial-water-storage / PM<sub>2.5</sub> records, county-month
+    lung-cancer mortality categories, and Nebraska county-year thyroid-cancer counts
+    with pesticide exposures.
   </p>
 </details>
 
