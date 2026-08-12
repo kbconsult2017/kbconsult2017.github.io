@@ -31,7 +31,7 @@ The SVD-PICAR framework offers a principled and practically workable approach fo
 
 </details>
 
-Gribben, K.C., Gwon, Y., **Afari, K.**, Berman, J., Li, A., Fard, B., Abadi, A., Wardlow, B., Tong, D., Tao, Z., and Bell, J. (2026+) Drought increases the risk of COPD mortality in the United States. Under review at *Environmental Research*.
+Gribben, K.C., Gwon, Y., **Afari, K.**, Berman, J., Li, A., Fard, B., Abadi, A., Wardlow, B., Tong, D., Tao, Z., and Bell, J. (2026+) Drought increases the risk of COPD mortality in the United States. Under review at *The Lancet Planetary Health*.
 <details markdown="1"><summary>Abstract</summary>
 
 Chronic obstructive pulmonary disease (COPD) is a leading cause of death and disability in the United States (U.S.). Drought is connected to multiple environmental risk factors for COPD mortality, but prior studies have not examined associations between drought indicators and COPD mortality in the United States at national and regional levels.
